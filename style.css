@@ -89,20 +89,9 @@ canvas {
     user-select: none;
 }
 
-.attack-btn {
-    width: 85px;
-    height: 85px;
-    border: none;
-    border-radius: 50%;
-    background: #d83b3b;
-    color: white;
-    font-weight: bold;
-    touch-action: none;
-    user-select: none;
-}
 
-.control-btn:active,
-.attack-btn:active {
+
+.control-btn:active {
     opacity: 0.7;
     transform: scale(0.95);
 }

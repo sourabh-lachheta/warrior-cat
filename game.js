@@ -87,16 +87,7 @@ controlButtons.forEach((button) => {
     });
 });
 
-// Mobile attack button
-const attackButton = document.getElementById("attackButton");
 
-attackButton.addEventListener("pointerdown", (event) => {
-    event.preventDefault();
-
-    if (!gameOver) {
-        attack();
-    }
-});
 
 
 
