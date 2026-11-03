@@ -95,6 +95,7 @@ canvas {
     transform: scale(0.95);
 }
 
+
 .restart-btn {
     display: none;
     margin: 15px auto;
@@ -106,7 +107,10 @@ canvas {
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
+    position: relative;
+    z-index: 10;
 }
+
 
 .restart-btn:active {
     transform: scale(0.95);
@@ -133,6 +137,8 @@ canvas {
         font-size: 30px;
     }
 }
+
+
 
 
 body {
