@@ -668,6 +668,7 @@ function drawGameOver() {
 
 function gameLoop(timestamp) {
 
+    
     restartButton.style.display = gameOver ? "block" : "none";
 
     // Reset canvas drawing state every frame
