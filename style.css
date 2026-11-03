@@ -139,6 +139,22 @@ canvas {
 }
 
 
+@media (max-width: 850px) {
+    .restart-btn {
+        display: none;
+        position: relative;
+        margin: 15px auto 25px;
+        z-index: 100;
+        width: fit-content;
+    }
+
+    .game-container {
+        padding-bottom: 20px;
+    }
+}
+
+
+
 
 
 body {
