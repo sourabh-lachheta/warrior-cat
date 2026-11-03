@@ -17,36 +17,29 @@
             <span>Score: <span id="score">0</span></span>
             <span>Coins: <span id="coins">0</span></span>
             <span>Hearts: <span id="hearts">5</span></span>
-           
         </div>
 
         <canvas id="gameCanvas" width="800" height="600"></canvas>
 
-        
+        <div class="mobile-controls">
+            <div class="movement-controls">
+                <button class="control-btn" data-key="arrowup">▲</button>
 
-<div class="mobile-controls">
-    <div class="movement-controls">
-        <button class="control-btn" data-key="arrowup">▲</button>
-
-        <div class="horizontal-controls">
-            <button class="control-btn" data-key="arrowleft">◀</button>
-            <button class="control-btn" data-key="arrowdown">▼</button>
-            <button class="control-btn" data-key="arrowright">▶</button>
+                <div class="horizontal-controls">
+                    <button class="control-btn" data-key="arrowleft">◀</button>
+                    <button class="control-btn" data-key="arrowdown">▼</button>
+                    <button class="control-btn" data-key="arrowright">▶</button>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
 
-<button id="restartButton" class="restart-btn">
-    RESTART GAME
-</button>
+        <button id="restartButton" class="restart-btn">
+            RESTART GAME
+        </button>
 
-
-</div>
-
-
-          
     </div>
 
     <script src="game.js"></script>
 </body>
 </html>
+
