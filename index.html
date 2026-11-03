@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warrior Cat - Tung Tung Trouble</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game-container">
+        <h1>WARRIOR CAT</h1>
+        <p class="subtitle">TUNG TUNG TROUBLE</p>
+
+        <div class="game-info">
+            <span>Score: <span id="score">0</span></span>
+            <span>Coins: <span id="coins">0</span></span>
+            <span>Hearts: <span id="hearts">5</span></span>
+           
+        </div>
+
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+
+        
+<div class="mobile-controls">
+
+    <div class="movement-controls">
+        <button class="control-btn" data-key="arrowup">▲</button>
+
+        <div class="horizontal-controls">
+            <button class="control-btn" data-key="arrowleft">◀</button>
+            <button class="control-btn" data-key="arrowdown">▼</button>
+            <button class="control-btn" data-key="arrowright">▶</button>
+        </div>
+    </div>
+
+    <button id="attackButton" class="attack-btn">ATTACK</button>
+
+</div>
+
+
+        <p class="instructions">
+            Arrow Keys / WASD to move
+        </p>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
