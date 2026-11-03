@@ -59,6 +59,16 @@ document.addEventListener("keyup", (event) => {
 });
 
 
+const restartButton = document.getElementById("restartButton");
+
+restartButton.addEventListener("click", () => {
+    if (gameOver) {
+        restartGame();
+    }
+});
+
+
+
 // Mobile movement controls
 const controlButtons = document.querySelectorAll(".control-btn");
 
@@ -657,6 +667,8 @@ function drawGameOver() {
 // Main game loop
 
 function gameLoop(timestamp) {
+
+    restartButton.style.display = gameOver ? "block" : "none";
 
     // Reset canvas drawing state every frame
     ctx.globalAlpha = 1;
